@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Gestão de Cadastro</string>
+    
+    <!-- Títulos das Telas -->
+    <string name="title_main">Cadastro de Usuário</string>
+    <string name="title_confirmation">Confirmação de Dados</string>
+    <string name="title_about">Sobre o Desenvolvedor</string>
+    
+    <!-- Labels e Hints -->
+    <string name="label_name">Nome:</string>
+    <string name="hint_name">Digite seu nome completo</string>
+    <string name="label_age">Idade:</string>
+    <string name="hint_age">00</string>
+    <string name="label_address">Endereço:</string>
+    <string name="hint_address">Rua, Número, Bairro</string>
+    
+    <!-- Botões -->
+    <string name="btn_save">SALVAR DADOS</string>
+    <string name="btn_yes">SIM</string>
+    <string name="btn_no">NÃO</string>
+    
+    <!-- Mensagens -->
+    <string name="question_correct">Seus dados estão corretos?</string>
+    <string name="toast_saved">Cadastro salvo com sucesso!</string>
+    <string name="error_empty_fields">Por favor, preencha todos os campos!</string>
+    
+    <!-- Dados do Desenvolvedor -->
+    <string name="dev_name">Leonardo Estevão Alves</string>
+    <string name="dev_ra">RA: 00250458-1</string>
+    <string name="dev_course">Análise e Desenvolvimento de Sistemas</string>
+    <string name="dev_description">Este aplicativo foi desenvolvido como parte do projeto acadêmico de Gestão de Cadastro, aplicando conceitos de Ciclo de Vida de Activities, Layouts Android e Material Design.</string>
+    <string name="menu_about">Sobre</string>
+</resources>

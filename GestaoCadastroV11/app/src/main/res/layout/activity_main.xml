@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8px"
+    tools:context=".activities.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_save">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <!-- Linha Nome -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    style="@style/LabelStyle"
+                    android:text="@string/label_name" />
+
+                <EditText
+                    android:id="@+id/et_name"
+                    style="@style/InputStyle"
+                    android:hint="@string/hint_name"
+                    android:inputType="textPersonName"
+                    android:importantForAutofill="no" />
+            </LinearLayout>
+
+            <!-- Linha Idade -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    style="@style/LabelStyle"
+                    android:text="@string/label_age" />
+
+                <EditText
+                    android:id="@+id/et_age"
+                    style="@style/InputStyle"
+                    android:hint="@string/hint_age"
+                    android:inputType="number"
+                    android:importantForAutofill="no" />
+            </LinearLayout>
+
+            <!-- Linha Endereço -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    style="@style/LabelStyle"
+                    android:text="@string/label_address" />
+
+                <EditText
+                    android:id="@+id/et_address"
+                    style="@style/InputStyle"
+                    android:hint="@string/hint_address"
+                    android:inputType="textPostalAddress"
+                    android:importantForAutofill="no" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_save"
+        style="@style/FullWidthButton"
+        android:layout_alignParentBottom="true"
+        android:text="@string/btn_save"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
