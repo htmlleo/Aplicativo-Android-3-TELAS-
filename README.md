@@ -5,9 +5,11 @@ Este é um aplicativo Android profissional desenvolvido como parte de um projeto
 
 ---
 
-## 👤 Desenvolvedor
-*   **Nome:** Leonardo Estevão Alves
-*   **Registro Acadêmico (RA):** 00250458-1
+## 👤 Desenvolvedores
+*   Nome: Leonardo Estevão Alves
+*   Registro: Acadêmico (RA): 00250458-1
+*   Nome: Vinicius Correia De Andrade 
+*   Registro: Acadêmico (RA): 251953-1
 *   **Curso:** Análise e Desenvolvimento de Sistemas
 
 ---
